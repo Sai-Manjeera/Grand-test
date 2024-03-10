@@ -1,0 +1,288 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.company-name {
+    margin: 0;
+}
+
+.topbar-left ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topbar-left ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.topbar-left ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Styling the dropdowns */
+.topbar-left select {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.topbar-left select option {
+    background-color: #333;
+    color: #fff;
+}
+/* End of dropdown styling */
+
+.topbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.profile a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* Align items to the top */
+    padding: 20px;
+}
+
+.text-content,
+.video-content {
+    flex-basis: 48%; /* Adjust the width as needed */
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .text-content,
+    .video-content {
+        flex-basis: 100%;
+    }
+}
+/* Add your existing styles here */
+
+/* Additional styles for new sections */
+.company-info,
+.news-recommendations,
+.services {
+    margin-top: 30px;
+}
+
+.company-info,
+.news-recommendations,
+.services,
+.careers,
+.contact,
+.about {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+/* Add your existing styles here */
+
+/* Additional styles for new sections */
+.company-info,
+.news-recommendations,
+.services {
+    margin-top: 30px;
+}
+
+.company-info,
+.news-recommendations,
+.services,
+.careers,
+.contact,
+.about {
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+/* Add your existing styles here */
+
+/* Additional styles for new sections */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.video-content {
+    flex-basis: 48%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.company-info,
+.news-recommendations {
+    flex-basis: 48%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+}
+/* Add your existing styles here */
+
+/* Additional styles for new sections */
+.company-info,
+.news-recommendations {
+    flex-basis: 45%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+/* Add your existing styles here */
+
+/* Additional styles for new sections */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.text-content,
+.video-content,
+.news-recommendations {
+    flex-basis: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+/* Add your existing styles here */
+
+/* Additional styles for new sections */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.text-content,
+.video-content,
+.news-recommendations {
+    flex-basis: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+/* Add your existing styles here */
+
+/* Additional styles for new sections */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.text-content,
+.video-content,
+.news-recommendations {
+    flex-basis: 30%;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    margin-top: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
